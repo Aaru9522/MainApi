@@ -1,0 +1,15 @@
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceL.3037F684.Up2Date
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+D:\Desktop\ShowIT\.NetCoreWEbAPI\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
