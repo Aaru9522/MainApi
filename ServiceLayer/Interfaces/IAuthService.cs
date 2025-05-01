@@ -6,7 +6,7 @@ namespace ServiceLayer.Interfaces
     public interface IAuthService
     {
         Task<bool> UserExists(string username);
-        Task<UserDto> Register(string username, string password);
+        Task<UserDto> Register(string username, string email, string password);
         Task<string> Login(string username, string password);
     }
 }

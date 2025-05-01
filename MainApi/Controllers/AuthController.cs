@@ -24,8 +24,8 @@ namespace MainApi.Controllers
             if (await _authService.UserExists(request.Username))
                 return BadRequest("User already exists.");
 
-            var newUser = await _authService.Register(request.Username, request.Password);
-            return Ok(new { newUser.Id, newUser.Username });
+            var newUser = await _authService.Register(request.Username, request.Email, request.Password);
+            return Ok(new { newUser.Id, newUser.Username, newUser.Email });
         }
 
         // POST: api/auth/login
@@ -43,7 +43,8 @@ namespace MainApi.Controllers
     public class RegisterRequest
     {
         public string Username { get; set; }
-        public string Password { get; set; }
+		public string Email { get; set; }
+		public string Password { get; set; }
     }
 
     public class LoginRequest

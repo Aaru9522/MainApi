@@ -40,6 +40,16 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("AllowAll", policy =>
+	{
+		policy
+		  .AllowAnyOrigin()   // <-- allow requests from any origin
+		  .AllowAnyHeader()   // <-- allow any header
+		  .AllowAnyMethod();  // <-- allow GET, POST, PUT, DELETE, etc.
+	});
+});
 // Register the service layer's authentication service.
 builder.Services.AddScoped<IAuthService, AuthService>();
 
@@ -74,8 +84,8 @@ var app = builder.Build();
 
 // ------------------ Middleware Pipeline ------------------
 
-// Use custom exception handling middleware if created.
-// app.UseMiddleware<ExceptionHandlingMiddleware>();
+// 1) **ADD THIS**: enable CORS using your "AllowAll" policy
+app.UseCors("AllowAll");
 
 app.UseRouting();
 

@@ -8,7 +8,10 @@ namespace ServiceLayer.DTO
 {
     public class UserDto
     {
-        public int Id { get; set; }
-        public string Username { get; set; }
-    }
+		public int Id { get; set; }
+		public string Username { get; set; }
+
+		// Add this:
+		public string Email { get; set; }
+	}
 }

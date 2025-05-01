@@ -29,20 +29,21 @@ namespace ServiceLayer.Implementations
             return await _context.Users.AnyAsync(u => u.Username.ToLower() == username.ToLower());
         }
 
-        public async Task<UserDto> Register(string username, string password)
+        public async Task<UserDto> Register(string username, string email, string password)
         {
             // For demonstration, password is stored in plain text.
             // NEVER do this in production; instead use hashing + salt.
             var user = new User
             {
                 Username = username,
-                Password = password
+				Email = email,
+				Password = password
             };
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return new UserDto { Id = user.Id, Username = user.Username };
+            return new UserDto { Id = user.Id, Email = user.Email, Username = user.Username };
         }
 
         public async Task<string> Login(string username, string password)
